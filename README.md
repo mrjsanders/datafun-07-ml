@@ -9,11 +9,6 @@
 
 ## Project Planning
 
-Two languages:
-
-- This file is written in **Markdown**, a simple markup language for presenting text.
-- Our analytics logic is written in **Python**, a scripting language for implementing logic.
-
 When we first encounter a **new and unknown data set**, we want to explore: run some quick checks, view the distributions, see if the data is clean (or if there are many missing values or outliers).
 
 This task is commonly called **Exploratory Data Analysis (EDA)**.
@@ -21,9 +16,6 @@ For EDA, it is useful to **combine presentation and code**.
 For this, we use Jupyter **notebooks**.
 
 Notebooks combine Markdown cells for section headings and narrative with Python Code cells for calculations and charts.
-
-After running the example script and notebook files,
-you'll create a similar notebook to explore a different **tabular** data file (a dataset with rows and columns).
 
 ---
 
@@ -191,41 +183,27 @@ If there are any errors, try to figure out how to address them.
 After getting a good example notebook, git add-commit-push to GitHub.
 Verify the example notebook is presented as you like.
 
-### Project Task 5. Create a New Notebook File and conduct a New EDA
+### Project Task 5. Follow the machine learning tasks outlined for the assignment.
 
-Now apply what you learned. Create a new notebook and perform EDA on a different dataset.
-
-Recommended Option 1: Use a Seaborn Built-in Dataset
-
-Seaborn includes several datasets. To see the list:
-```python
-import seaborn as sns
-print(sns.get_dataset_names())
-```
-
-Good choices for practice:
-- `iris` - flower measurements (150 rows, 5 columns)
-- `tips` - restaurant tipping data (244 rows, 7 columns)
-- `diamonds` - diamond prices and attributes (53940 rows, 10 columns)
-- `mpg` - car fuel efficiency (398 rows, 9 columns)
-- `titanic` - passenger survival data (891 rows, 15 columns)
-
-Load any of these with: `df = sns.load_dataset('dataset_name')`
-
-Alternatively, Option 2: Choose Your Own Tabular Dataset
-
-Put your dataset in data/raw/ as a csv file.
-Use pathlib Paths to create a path to your csv file.
-
-Load a CSV file with: `df = pd.read_csv('path_to_your_file.csv')`
-
-Follow the example, and ensure you have:
+Ensure you have the following for your dataset:
 
 - Title and header (author, purpose, date, dataset info with source/citation)
 - Numbered sections that match the example.
 - Good narrative showing your observations and insights as you work through the process.
 
 ---
+
+### Workflow Progression
+
+--- 2/21 Updates ---
+1. Cloned datafun-04-notebook and created datafun-07-ml
+2. Updated this README, pyprojecct.toml, and mkdocs.yaml to reflect datafun-07-ml repo, instead of the 04-notebook
+3. Updated the pyproject.toml dependencies to include: numpy, pandas, pyarrow, mathplotlib, seaborn, and scipy
+4. Verfied the changes passed without error.
+5. Pushed the repo to git hub - done for the day!
+
+---
+
 
 ## Notes
 
