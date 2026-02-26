@@ -197,13 +197,28 @@ Ensure you have the following for your dataset:
 
 --- 2/21 Updates ---
 1. Cloned datafun-04-notebook and created datafun-07-ml
-2. Updated this README, pyprojecct.toml, and mkdocs.yaml to reflect datafun-07-ml repo, instead of the 04-notebook
-3. Updated the pyproject.toml dependencies to include: numpy, pandas, pyarrow, mathplotlib, seaborn, and scipy
+2. Updated this README, pyprojecct.toml, and mkdocs.yaml to reflect
+   datafun-07-ml repo, instead of the 04-notebook
+3. Updated the pyproject.toml dependencies to include: numpy, pandas,
+   pyarrow, mathplotlib, seaborn, and scipy
 4. Verfied the changes passed without error.
 5. Pushed the repo to git hub - done for the day!
 
----
+--- 2/23 Updates
+1. Familiarized myself with Simple Linear Regression (10.16)
+2. Created a mrjsanders_ml.ipynb Jupyter Notebook file
+3. Created a table of values that converts celsius to fahrenheit
+4. Performed simple linear regression on the above mentioned data
+5. Brought in specifc CSV files to use later
+6. Included the 10_16.ipynb file for reference
+7. Pushed the repo to git hub - done for the day!
 
+--- 2/24 Update
+1. Had an error where my code couldn't read my csv file
+2. Determined the root directory was mapped inncorectly
+3. Forced the correct root directory with code in my import block
+4. Typed in the code from the book, and cloned file example
+5. Saved, pushed to git hub, hopefully finish tomorrow.
 
 ## Notes
 
